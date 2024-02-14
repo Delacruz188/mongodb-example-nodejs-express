@@ -1,0 +1,43 @@
+# Dependencias instaladas por npm
+/node_modules
+
+# Archivos y directorios generados automáticamente
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno de producción
+/build
+
+# Archivos de configuración locales
+.env
+
+# Dependencias de desarrollo y archivos de configuración
+/.pnp
+.pnp.js
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Directorio de cobertura generado por herramientas de prueba
+/coverage
+
+# Archivos de compilación generados
+/dist
+
+# Dependencias instaladas por yarn
+/.yarn
+
+# Varios archivos y directorios
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
